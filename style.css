@@ -103,3 +103,11 @@ body{
 .visible{
     display: flex;
 }
+
+
+@media only screen and (max-width:550px){
+    .elements{
+        width: 330px;
+        margin-left: 78px;
+    }
+}

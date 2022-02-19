@@ -33,6 +33,7 @@ filters.forEach(filter => {
         console.log(filter.innerText);
         for(let i=0;i<elements.length;i++){
             if(filter.innerText==="Breakfast"){
+                filter.classList.add("active");
                 if(elements[i].classList.contains("breakfast")){
                     elements[i].classList.add("visible");
                     elements[i].classList.remove("hidden");
