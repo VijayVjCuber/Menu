@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#header h2{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Dancing Script', cursive;
+    color: goldenrod;
+    text-shadow: 1px 1px 3px gold;
+}
+
+#filters{
+    margin: 0px 20vw;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+#filters,#wrapper{
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Festive', cursive;
+    font-family: 'Italianno', cursive;
+}
+
+.optfilter{
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#filters li:hover{
+    cursor: pointer;
+    background: black;
+    color: white;
+}
+
+#wrapper{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 0.35fr));
+    grid-gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.elements{
+    display: flex;
+    width: 500px;
+    align-items: center;
+    /* padding: 0px 50px; */
+}
+
+.elements img{
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.elements .food-images{
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    border: 2px solid orange;
+    box-shadow: 2px 2px 5px black;
+}
+
+.description{
+    margin-left: 20px;
+    overflow-wrap: break-word;
+}
+
+.description p{
+    word-wrap: break-word;
+    word-break: break-all;
+    max-width: 100%;
+}
+
+.description div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.description h3,h4{
+    margin: 0;
+}
+
+.description h4{
+    align-self: center;
+    background-color: yellow;
+}
+
+.description hr{
+    background-color: blue;
+}
+
+.hidden{
+    display: none;
+}
+
+.visible{
+    display: flex;
+}
