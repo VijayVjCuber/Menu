@@ -13,6 +13,7 @@ body{
 }
 
 #filters{
+    padding: 0;
     margin: 0px 20vw;
     list-style-type: none;
     display: flex;
@@ -109,5 +110,8 @@ body{
     .elements{
         width: 330px;
         margin-left: 78px;
+    }
+    #filters{
+        margin: 0px;
     }
 }
